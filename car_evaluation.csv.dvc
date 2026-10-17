@@ -1,5 +1,5 @@
 outs:
-- md5: 7c38cf845597beeb5aae647963358811
-  size: 52687
+- md5: ca7221f46b93bc9417514badc7be02a9
+  size: 52684
   hash: md5
   path: car_evaluation.csv
