@@ -1,0 +1,20 @@
+[project]
+name = "try-and-error"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ahmed Yasser Sheta", email = "yassersheta@std.mans.edu.eg" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dvc>=3.67.1",
+    "ruff>=0.17.1",
+]
+
+[project.scripts]
+try-and-error = "try_and_error:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
